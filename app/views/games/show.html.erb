@@ -1,0 +1,7 @@
+<h1>Game Details</h1>
+<h2><%= @game.title %></h2>
+<p>'Publisher:'<%= @game.publisher %></p>
+<p><%= 'Rating:' @game.rating %></p>
+<p><%= 'Maximum Players:' @game.maximum_players %></p>
+<p><%= 'Solo Option?' @game.solo_option %></p>
+<%= link_to 'Back', games_path %>

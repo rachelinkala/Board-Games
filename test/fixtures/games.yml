@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  title: MyString
+  rating: 1
+  publisher: MyString
+  maximum_players: 1
+  solo_option: false
+
+two:
+  title: MyString
+  rating: 1
+  publisher: MyString
+  maximum_players: 1
+  solo_option: false

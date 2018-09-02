@@ -1,0 +1,19 @@
+<h1>New Game</h1>
+<%= form_for @game do |f| %>
+  <%=f.label :title %>
+  <%= f.text_field :title %>
+
+  <%=f.label :publisher %>
+  <%= f.text_field :publisher %>
+
+  <%=f.label :rating %>
+  <%= f.text_field :rating %>
+
+  <%=f.label :maximum_players %>
+  <%= f.text_field :maximum_players %>
+
+  <%=f.label :solo_option %>
+  <%= f.text_field :solo_option %>
+
+  <%= f.submit %>
+<% end %>
