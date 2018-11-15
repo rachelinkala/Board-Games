@@ -1,6 +1,9 @@
 <h1> Games </h1>
+  <%= button_to 'New Board Game', new_game_path %>
+
 <% @games.each do |game| %>
   <h2><%= game.title %></h2>
-  <%= link_to 'Show Game Details', game_path(game) %>
-  <%= link_to 'New Board Game', new_game_path %>
+  <%= button_to 'Show Game Details', game_path(game) %>
+  <%= button_to 'Edit Game', edit_game_path(game) %>
+  <%= button_to 'Delete Game', game, method: :delete %>
 <% end %>
